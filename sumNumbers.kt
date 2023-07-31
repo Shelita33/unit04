@@ -1,8 +1,13 @@
-fun main() {
-var i = 0;
-//int sum = 0;
-while (i < 50) { 
-   println(i)
-    i++
-}
+ fun main(args: Array<String>) {
+
+    val num = 50
+    var i = 1
+    var sum = 0
+
+    while (i <= num) {
+        sum += i
+        i++
+    }
+
+    println("Sum = $sum")
 }
