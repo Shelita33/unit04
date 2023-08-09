@@ -3,5 +3,11 @@ val stores = listOf("Enter today's sales for store 1: 1000 [Enter]", "Enter toda
 )
 for (store in stores) {
     println(store)
+
+}
+
+val storeSales = listOf("Store 1: **********", "Store 2: ************", "Store 3: ******************", "Store 4: ********", "Store 5: *******************")
+for (storeSales in storeSales) {
+    println(storeSales)
 }
 }
